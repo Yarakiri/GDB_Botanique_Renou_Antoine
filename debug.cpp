@@ -1,10 +1,17 @@
 #include <iostream>
+#include <string>
+
 #include "Plante.h"
+#include "Plante.cpp"
+#include "Botaniste.h"
+#include "Botaniste.cpp"
+#include "Fleur.h"
+#include "Fleur.cpp"
+
 using namespace std;
 
 int main()
 {
-    cout << "Hello World" << endl;
     Plante * link = new Plante("Link");
     link->afficher();
     

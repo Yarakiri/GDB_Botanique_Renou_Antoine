@@ -29,7 +29,7 @@ Plante::Plante(string nom) : _nom(nom), _hydratation(100), _sante(100), _maturit
 
     void Plante::engrainner(){
     _maturite += 1;
-    cout <<"Maitenant, vous ne pouvez plus engrainner aujourd'hui" << endl;
+    cout <<"Maintenant, vous ne pouvez plus engrainner aujourd'hui" << endl;
     }
 
 
