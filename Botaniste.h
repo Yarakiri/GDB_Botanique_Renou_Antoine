@@ -9,19 +9,20 @@ class Botaniste {
 
     private:
 
-    std::string p_nom;
-    int a_engrais;
+    std::string _nom;
+    int _engrais;
+    int _argent;
 
 
     public:
 
-        Botaniste(std::string nom);
+       
         void arroser(Plante &cible);
         void tailler(Plante &cible);
         void engrainner(Plante &cible);
-        std::string getNomBotaniste();
-    
-
+        void vendre(Plante &cible);
+ //       void dormir();//
+        Botaniste(std::string nom);
 };
 
 #endif

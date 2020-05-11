@@ -12,9 +12,17 @@ using namespace std;
 
 int main()
 {
-    Plante * link = new Plante("Link");
-    link->afficher();
-    
 
+Plante Piv("Pivoine");
+Botaniste Art ("Arthur");
+
+        Piv.afficher();
+        Art.arroser(Plante &cible);
+        Art.engrainner(Plante &cible);
+        Art.tailler(Plante &cible);
+
+
+
+        Piv.afficher();
     return 0;
 }
