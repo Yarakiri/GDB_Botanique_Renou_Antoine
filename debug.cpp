@@ -1,9 +1,18 @@
 #include <iostream>
+#include <string>
+
+#include "Plante.h"
+#include "Plante.cpp"
+#include "Botaniste.h"
+#include "Botaniste.cpp"
 using namespace std;
+
+
+
+
+
 int main()
 {
-    cout << "Hello World" << endl;
-    // uncomment below line to stop cmd from exiting immediately in case of "externalConsole": true
-    //system("pause");
+
     return 0;
 }
