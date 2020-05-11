@@ -3,7 +3,7 @@
 
 #include <string>
 #include "Plante.h"
-
+#include "Plante.cpp"
 
 class Fleur{
 
