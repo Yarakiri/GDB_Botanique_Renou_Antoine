@@ -1,0 +1,3 @@
+Ctrl + shift + b -> compile
+
+F5 -> debug
