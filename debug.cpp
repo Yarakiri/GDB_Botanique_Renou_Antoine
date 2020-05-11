@@ -1,9 +1,13 @@
 #include <iostream>
+#include "Plante.h"
 using namespace std;
+
 int main()
 {
     cout << "Hello World" << endl;
-    // uncomment below line to stop cmd from exiting immediately in case of "externalConsole": true
-    //system("pause");
+    Plante * link = new Plante("Link");
+    link->afficher();
+    
+
     return 0;
 }

@@ -4,15 +4,15 @@
 
 
         {
-            "name": "g++.exe build and debug active file",
+            "name": "C/C++: g++.exe build and debug active file",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+            "program": "C:\\Users\\renou\\OneDrive\\Documents\\Game Design\\programmation\\C++\\GDB_Botanique_Renou_Antoine\\${fileBasenameNoExtension}.exe",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
             "environment": [],
-            "externalConsole": false, //set to true to see output in cmd instead
+            "externalConsole": true, //set to true to see output in cmd instead
             "MIMode": "gdb",
             "miDebuggerPath": "C:\\MinGW\\bin\\gdb.exe",
             "setupCommands": [
@@ -22,7 +22,7 @@
                     "ignoreFailures": true
                 }
             ],
-            "preLaunchTask": "g++.exe build active file"
+            "preLaunchTask": "C/C++: g++.exe build active file"
         }
     ]
 }
